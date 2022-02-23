@@ -278,6 +278,10 @@
     <keyboard-shortcut first-keystroke="shift meta o" />
   </action>
   <action id="RiderBackendAction-EncapsulateField" />
+  <action id="RiderDebuggerApplyEncChagnes">
+    <keyboard-shortcut first-keystroke="alt f10" />
+    <keyboard-shortcut first-keystroke="meta s" />
+  </action>
   <action id="RiderUnitTestDebugContextTwAction">
     <keyboard-shortcut first-keystroke="meta d" />
     <keyboard-shortcut first-keystroke="f12" />
@@ -306,6 +310,7 @@
   <action id="SafeDelete">
     <keyboard-shortcut first-keystroke="alt delete" />
   </action>
+  <action id="SaveDocument" />
   <action id="SearchEverywhere.NavigateToNextGroup">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
