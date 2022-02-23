@@ -1,33 +1,31 @@
 <scheme name="One Monokai (ppy)" version="142" parent_scheme="Visual Studio Dark">
-  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2017-10-13T17:57:24</property>
     <property name="ide">Rider</property>
     <property name="ideVersion">2017.2.0.0</property>
-    <property name="modified">2022-02-21T02:22:32</property>
+    <property name="modified">2022-02-23T15:16:55</property>
     <property name="originalScheme">_@user_Visual Studio Dark</property>
   </metaInfo>
-  <option name="CONSOLE_FONT_NAME" value="JetBrains Mono" />
-  <option name="CONSOLE_LIGATURES" value="true" />
-  <option name="CONSOLE_LINE_SPACING" value="1.06" />
   <colors>
     <option name="CARET_COLOR" value="dedede" />
-    <option name="CARET_ROW_COLOR" value="313641" />
+    <option name="CARET_ROW_COLOR" value="2f2f3f" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="" />
     <option name="GUTTER_BACKGROUND" value="22222e" />
     <option name="INDENT_GUIDE" value="333944" />
     <option name="LINE_NUMBERS_COLOR" value="495162" />
     <option name="LOOKUP_COLOR" value="b1318" />
     <option name="MODIFIED_LINES_COLOR" value="30492e" />
-    <option name="PRESENTATION_ASSISTANT_HINT_BACKGROUND" value="312642" />
-    <option name="PRESENTATION_ASSISTANT_HINT_FOREGROUND" value="d1cada" />
+    <option name="PRESENTATION_ASSISTANT_HINT_BACKGROUND" value="8e70be" />
+    <option name="PRESENTATION_ASSISTANT_HINT_FOREGROUND" value="21212c" />
     <option name="SELECTED_INDENT_GUIDE" value="4e5566" />
+    <option name="SELECTED_TEARLINE_COLOR" value="2c2c3c" />
     <option name="SELECTION_BACKGROUND" value="40375e" />
     <option name="ScrollBar.Mac.Transparent.thumbBorderColor" value="252526" />
     <option name="ScrollBar.Mac.Transparent.thumbColor" value="252526" />
     <option name="ScrollBar.Mac.hoverThumbColor" value="494a4f" />
     <option name="ScrollBar.Mac.thumbBorderColor" value="" />
     <option name="ScrollBar.Mac.thumbColor" value="25252620" />
+    <option name="TEARLINE_COLOR" value="2c2c3b" />
   </colors>
   <attributes>
     <option name="BREADCRUMBS_CURRENT">
