@@ -13,7 +13,6 @@
     <entry key="mac.editor.thumb.default.alpha.base" value="102" />
     <entry key="ide.balloon.shadow.size" value="0" />
     <entry key="ide.mac.allowDarkWindowDecorations" value="true" />
-    <entry key="rider.enable.designer.winForms" value="false" />
     <entry key="ide.tree.ui.experimental" value="false" />
     <entry key="ide.scratch.in.project.view" value="false" />
     <entry key="ide.svg.icon" value="true" />
@@ -35,6 +34,7 @@
     <entry key="ide.tooltip.initialDelay" value="400" />
     <entry key="rdclient.asyncActions" value="false" />
     <entry key="ide.experimental.ui.toolwindow.stripes" value="true" />
+    <entry key="rider.enable.designer.winForms" value="true" />
   </component>
   <component name="StatusBar">
     <option name="widgets">

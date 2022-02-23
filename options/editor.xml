@@ -13,6 +13,9 @@
     <option name="INSERT_BRACE_ON_ENTER" value="false" />
     <option name="HIGHLIGHT_SCOPE" value="true" />
   </component>
+  <component name="CodeVisionSettings">
+    <option name="enabled" value="false" />
+  </component>
   <component name="DaemonCodeAnalyzerSettings">
     <option name="AUTOREPARSE_DELAY" value="0" />
     <option name="NEXT_ERROR_ACTION_GOES_TO_ERRORS_FIRST" value="false" />
