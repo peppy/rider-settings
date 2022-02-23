@@ -1,0 +1,6 @@
+<application>
+  <component name="NotificationConfiguration" showBalloons="false">
+    <notification groupId="IDE Errors" />
+    <notification groupId="MATERIAL_THEME_UPDATE" displayType="NONE" />
+  </component>
+</application>

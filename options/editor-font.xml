@@ -1,0 +1,10 @@
+<application>
+  <component name="DefaultFont">
+    <option name="VERSION" value="1" />
+    <option name="FONT_SIZE" value="17" />
+    <option name="FONT_REGULAR_SUB_FAMILY" value="Light" />
+    <option name="FONT_BOLD_SUB_FAMILY" value="Bold" />
+    <option name="LINE_SPACING" value="1.06" />
+    <option name="USE_LIGATURES" value="true" />
+  </component>
+</application>

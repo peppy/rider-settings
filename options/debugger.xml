@@ -1,0 +1,43 @@
+<application>
+  <component name="XDebuggerSettings">
+    <data-views>
+      <sort-values>true</sort-values>
+      <option name="valueLookupDelay" value="150" />
+    </data-views>
+    <general>
+      <evaluation-dialog-mode>CODE_FRAGMENT</evaluation-dialog-mode>
+      <option name="hideDebuggerOnProcessTermination" value="true" />
+    </general>
+    <debuggers>
+      <debugger id="dotnet_debugger">
+        <configuration>
+          <option name="breakOnUserUnhandledExceptions" value="true" />
+          <option name="disableJitOptimizationOnModuleLoad" value="false" />
+          <option name="groupNonPublicMembers" value="true" />
+          <option name="needNotifyWhenStoppedInExternalCode" value="false" />
+          <option name="showRunToPanel" value="false" />
+          <option name="showTypeVariables" value="false" />
+          <option name="smartStepIntoByDefault" value="false" />
+          <option name="userUnhandledExceptionsIgnoreList">
+            <list>
+              <option value="System.OperationCanceledException" />
+              <option value="System.Threading.ThreadAbortException" />
+              <option value="System.IO.IOException" />
+              <option value="MySqlConnector.MySqlException" />
+              <option value="System.Reflection.TargetInvocationException" />
+              <option value="System.Threading.Tasks.TaskCanceledException" />
+              <option value="System.BadImageFormatException" />
+              <option value="NUnit.Framework.AssertionException" />
+              <option value="System.NullReferenceException" />
+            </list>
+          </option>
+        </configuration>
+      </debugger>
+      <debugger id="oracle">
+        <configuration>
+          <option name="steppingPauseAtBegin" value="true" />
+        </configuration>
+      </debugger>
+    </debuggers>
+  </component>
+</application>

@@ -1,0 +1,13 @@
+<application>
+  <component name="AdvancedSettings">
+    <option name="settings">
+      <map>
+        <entry key="confirm.rerun.with.termination" value="false" />
+        <entry key="editor.maximize.on.double.click" value="false" />
+        <entry key="ide.cycle.scrolling" value="false" />
+        <entry key="ide.suppress.double.click.handler" value="true" />
+        <entry key="vcs.process.ignored" value="false" />
+      </map>
+    </option>
+  </component>
+</application>

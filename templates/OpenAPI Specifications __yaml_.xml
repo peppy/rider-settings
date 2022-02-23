@@ -1,0 +1,20 @@
+<templateSet group="OpenAPI Specifications (.yaml)">
+  <template name="opnp" value="openapi: 3.0.3&#10;info:&#10;  title: $TITLE$&#10;  description: $TITLE$&#10;  version: 1.0.0&#10;servers:&#10;  - url: 'https://$AUTHORITY$'&#10;paths:&#10;  $END$" description="OpenAPI 3.0.3 Specification (.yaml)" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="AUTHORITY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="swag" value="swagger: &quot;2.0&quot;&#10;info:&#10;  title: $TITLE$&#10;  description: $TITLE$&#10;  version: 1.0.0&#10;host: $AUTHORITY$&#10;schemes:&#10;  - https&#10;paths:&#10;  $END$" description="Swagger 2.0 Specification (.yaml)" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="AUTHORITY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="endp" value="/$PATH$:&#10;  $HTTP_METHOD$:&#10;    summary: $DESCRIPTION$&#10;    description: $DESCRIPTION$&#10;    responses:&#10;      '$RESPONSE$':&#10;        description: $RESPONSE_DESCRIPTION$&#10;$END$" description="Inserts endpoint description section" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="PATH" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="HTTP_METHOD" expression="complete()" defaultValue="get" alwaysStopAt="true" />
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RESPONSE" expression="" defaultValue="200" alwaysStopAt="true" />
+    <variable name="RESPONSE_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

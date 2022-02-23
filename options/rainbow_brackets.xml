@@ -1,0 +1,9 @@
+<application>
+  <component name="RainbowSettings">
+    <option name="disableRainbowIndentsInZenMode" value="false" />
+    <option name="doNOTRainbowifyBigFiles" value="false" />
+    <option name="doNOTRainbowifyTheFirstLevel" value="true" />
+    <option name="useColorGenerator" value="true" />
+    <option name="version" value="6.21" />
+  </component>
+</application>

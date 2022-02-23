@@ -1,0 +1,18 @@
+<templateSet group="SQL">
+  <template name="sel" value="select * from $table$$END$;" description="select all rows from a table" toReformat="true" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ins" value="insert into $table$ ($columns$) values ($info$$END$);" description="insert rows into a table" toReformat="true" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="columns" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="info" expression="showParameterInfo()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="upd" value="update $table_name$ set $col$ = $value$ where $END$;" description="update values in a table" toReformat="true" toShortenFQNames="false">
+    <variable name="table_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="col" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

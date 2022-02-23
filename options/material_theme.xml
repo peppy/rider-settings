@@ -1,0 +1,23 @@
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="invertedSelectionColor" value="true" />
+    <option name="compactSidebar" value="true" />
+    <option name="isInvertedSelectionColor" value="true" />
+    <option name="isTabsShadow" value="false" />
+    <option name="isWizardShown" value="true" />
+    <option name="overrideAccentColor" value="false" />
+    <option name="pristineConfig" value="false" />
+    <option name="statusBarTheme" value="false" />
+    <option name="upperCaseButtons" value="false" />
+    <option name="customSidebarHeight" value="20" />
+    <option name="settingsSelectedTab" value="1" />
+    <option name="tabsHeight" value="30" />
+    <option name="accentColor" value="6654a5" />
+    <option name="highlightColor" value="80cbc4" />
+    <option name="selectedTheme" value="CUSTOM" />
+    <option name="userId" value="40e7ed88:164031513d9:-7fff" />
+    <option name="version" value="7.0.0" />
+    <option name="stripedToolWindowsEnabled" value="true" />
+    <option name="showWhatsNew" value="false" />
+  </component>
+</application>

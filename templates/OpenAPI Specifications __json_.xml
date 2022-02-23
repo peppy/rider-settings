@@ -1,0 +1,20 @@
+<templateSet group="OpenAPI Specifications (.json)">
+  <template name="opnp" value="{&#10;  &quot;openapi&quot;: &quot;3.0.3&quot;,&#10;  &quot;info&quot;: {&#10;    &quot;title&quot;: &quot;$TITLE$&quot;,&#10;    &quot;description&quot;: &quot;$TITLE$&quot;,&#10;    &quot;version&quot;: &quot;1.0.0&quot;&#10;  },&#10;  &quot;servers&quot;: [&#10;    {&#10;      &quot;url&quot;: &quot;https://$AUTHORITY$&quot;&#10;    }&#10;  ],&#10;  &quot;paths&quot;: {&#10;    $END$&#10;  }&#10;}&#10;" description="OpenAPI 3.0.3 Specification (.json)" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="AUTHORITY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="swag" value="{&#10;  &quot;swagger&quot;: &quot;2.0&quot;,&#10;  &quot;info&quot;: {&#10;    &quot;title&quot;: &quot;$TITLE$&quot;,&#10;    &quot;description&quot;: &quot;$TITLE$&quot;,&#10;    &quot;version&quot;: &quot;1.0.0&quot;&#10;  },&#10;  &quot;host&quot;: &quot;$AUTHORITY$&quot;,&#10;  &quot;schemes&quot;: [&#10;    &quot;https&quot;&#10;  ],&#10;  &quot;paths&quot;: {&#10;    $END$&#10;  }&#10;}" description="Swagger 2.0 Specification (.json)" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="AUTHORITY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="endp" value="&quot;/$PATH$&quot;: {&#10;  &quot;$HTTP_METHOD$&quot;: {&#10;    &quot;summary&quot;: &quot;$DESCRIPTION$&quot;,&#10;    &quot;description&quot;: &quot;$DESCRIPTION$&quot;,&#10;    &quot;responses&quot;: {&#10;      &quot;$RESPONSE$&quot;: {&#10;        &quot;description&quot;: &quot;$RESPONSE_DESCRIPTION$&quot;&#10;      }&#10;    }&#10;  }&#10;}&#10;&#10;$END$" description="Inserts endpoint description section" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="PATH" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="HTTP_METHOD" expression="complete()" defaultValue="get" alwaysStopAt="true" />
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RESPONSE" expression="" defaultValue="200" alwaysStopAt="true" />
+    <variable name="RESPONSE_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

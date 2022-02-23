@@ -1,0 +1,46 @@
+<scheme name="_@user_Rider Light" version="142" parent_scheme="Rider Light">
+  <metaInfo>
+    <property name="created">2022-02-08T15:12:32</property>
+    <property name="ide">Rider</property>
+    <property name="ideVersion">2022.1.0.0</property>
+    <property name="modified">2022-02-08T15:13:46</property>
+    <property name="originalScheme">Rider Light</property>
+  </metaInfo>
+  <attributes>
+    <option name="INDENT_RAINBOW_COLOR_1">
+      <value>
+        <option name="BACKGROUND" value="fcfcfe" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_2">
+      <value>
+        <option name="BACKGROUND" value="fbfefd" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_3">
+      <value>
+        <option name="BACKGROUND" value="fdfefc" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_4">
+      <value>
+        <option name="BACKGROUND" value="fffdfb" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_5">
+      <value>
+        <option name="BACKGROUND" value="fffbfa" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_6">
+      <value>
+        <option name="BACKGROUND" value="fff9f9" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_ERROR">
+      <value>
+        <option name="BACKGROUND" value="f3ebeb" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

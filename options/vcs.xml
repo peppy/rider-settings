@@ -1,0 +1,21 @@
+<application>
+  <component name="Vcs.Log.App.Settings">
+    <option name="COMPACT_REFERENCES_VIEW" value="false" />
+    <option name="SHOW_TAG_NAMES" value="true" />
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Subject" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsApplicationSettings">
+    <option name="SHOW_WHITESPACES_IN_LST" value="false" />
+    <option name="SHOW_LST_ERROR_STRIPE_MARKERS" value="false" />
+    <option name="ENABLE_PARTIAL_CHANGELISTS" value="false" />
+    <option name="COMMIT_FROM_LOCAL_CHANGES" value="true" />
+    <option name="SHOW_EDITOR_PREVIEW_ON_DOUBLE_CLICK" value="false" />
+  </component>
+</application>
