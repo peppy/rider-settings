@@ -1,15 +1,10 @@
 <application>
   <component name="UpdatesConfigurable">
     <ignoredBuildNumbers>
-      <item value="192.5308.923" />
-      <item value="192.5308.630" />
-      <item value="192.5308.1339" />
-      <item value="192.5308.380" />
-      <item value="193.5233.39" />
-      <item value="201.5985.59" />
+      <item value="" />
     </ignoredBuildNumbers>
-    <option name="LAST_BUILD_CHECKED" value="RD-221.3427.104" />
-    <option name="LAST_TIME_CHECKED" value="1644731748626" />
+    <option name="LAST_BUILD_CHECKED" value="RD-221.4501.83" />
+    <option name="LAST_TIME_CHECKED" value="1645560725871" />
     <pluginHosts>
       <item value="https://plugins.jetbrains.com/plugins/eap/ideavim" />
     </pluginHosts>
