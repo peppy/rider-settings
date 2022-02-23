@@ -4,7 +4,7 @@
     <property name="created">2017-10-13T17:57:24</property>
     <property name="ide">Rider</property>
     <property name="ideVersion">2017.2.0.0</property>
-    <property name="modified">2022-02-08T20:16:28</property>
+    <property name="modified">2022-02-21T02:22:32</property>
     <property name="originalScheme">_@user_Visual Studio Dark</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="JetBrains Mono" />
@@ -14,7 +14,7 @@
     <option name="CARET_COLOR" value="dedede" />
     <option name="CARET_ROW_COLOR" value="313641" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="" />
-    <option name="GUTTER_BACKGROUND" value="252526" />
+    <option name="GUTTER_BACKGROUND" value="22222e" />
     <option name="INDENT_GUIDE" value="333944" />
     <option name="LINE_NUMBERS_COLOR" value="495162" />
     <option name="LOOKUP_COLOR" value="b1318" />
@@ -33,6 +33,12 @@
     <option name="BREADCRUMBS_CURRENT">
       <value>
         <option name="FOREGROUND" value="bbbbbb" />
+      </value>
+    </option>
+    <option name="BREADCRUMBS_DEFAULT">
+      <value>
+        <option name="FOREGROUND" value="bbbbbb" />
+        <option name="BACKGROUND" value="2c2c3b" />
       </value>
     </option>
     <option name="CODE_LENS_BORDER_COLOR">
@@ -284,7 +290,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="abb2bf" />
-        <option name="BACKGROUND" value="1d1d1f" />
+        <option name="BACKGROUND" value="20202a" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">

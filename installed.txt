@@ -1,9 +1,6 @@
 AceJump
-GrepConsole
 IdeaVIM
-com.chrisrm.idea.MaterialThemeUI
-com.codestream.jetbrains-codestream
 com.intellij.ideolog
-indent-rainbow.indent-rainbow
+com.jetbrains.darkPurpleTheme
 izhangzhihao.rainbow.brackets
 org.nik.presentation-assistant
