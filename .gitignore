@@ -8,3 +8,11 @@ plugin_DC.license
 plugin_DPN.license
 port.lock
 updatedBrokenPlugins.db
+options/completion.factors.user.xml
+options/features.usage.statistics.xml
+options/recentSolutions.xml
+options/recentSolutionsConfiguration.xml
+options/window.state.xml
+options/vim_settings_local.xml
+options/usage.statistics.xml
+options/actionSummary.xml
