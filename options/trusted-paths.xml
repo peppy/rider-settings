@@ -6,4 +6,11 @@
       </map>
     </option>
   </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Projects" />
+      </list>
+    </option>
+  </component>
 </application>
