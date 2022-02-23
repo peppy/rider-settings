@@ -5,8 +5,10 @@
     <option name="EDITOR_TAB_LIMIT" value="2" />
     <option name="HIDE_KNOWN_EXTENSION_IN_TABS" value="true" />
     <option name="HIDE_TOOL_STRIPES" value="true" />
+    <option name="LEFT_HORIZONTAL_SPLIT" value="true" />
     <option name="MAX_LOOKUP_WIDTH2" value="1000" />
     <option name="PRESENTATION_MODE_FONT_SIZE" value="17" />
+    <option name="RIGHT_HORIZONTAL_SPLIT" value="true" />
     <option name="SHOW_CLOSE_BUTTON" value="false" />
     <option name="SHOW_EDITOR_TOOLTIP" value="false" />
     <option name="SHOW_FILE_ICONS_IN_TABS" value="false" />
