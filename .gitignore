@@ -16,3 +16,7 @@ options/window.state.xml
 options/vim_settings_local.xml
 options/usage.statistics.xml
 options/actionSummary.xml
+options/customization.xml
+port
+options/trusted-paths.xml
+options/trustedSolutions.xml
