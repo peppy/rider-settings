@@ -1,0 +1,10 @@
+
+workspace
+event-log-metadata
+jdbc-drivers
+resharper-host
+tasks
+plugin_DC.license
+plugin_DPN.license
+port.lock
+updatedBrokenPlugins.db
