@@ -1,0 +1,54 @@
+<application>
+  <component name="DynamicPluginEnabler">
+    <trackers>
+      <map>
+        <entry key="1hoM9noim7nJdpMv3JpZR9jZI9c">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+      </map>
+    </trackers>
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "Debug.Allow.Typing": "true",
+    "MarketplacePluginsSearchHistory": "presentation\nheap\nrainbow\npurple",
+    "PluginConfigurable.selectionTab": "1",
+    "RD.Init.Cfg.2": "true",
+    "RD.Init.DialogShown.Ide": "true",
+    "RD.Switch.Laf": "true",
+    "Rider.Last.Started.IDE.Build": "RD-221.4501.83",
+    "RunOnceActivity.se.enable.text.search": "true",
+    "Tutorials.In.Recent.Projects.Disabled": "true",
+    "appcds.runOnSecondStart": "RD-221.4501.83-5c1c750f432104722ff87abdacd78b9e40a9ce617da8dcf37f4cbd5d755d08b8",
+    "bundled.plugins.list.saved.version": "RD-221.4501.83",
+    "experimentalFeature.editor.reader.mode": "false",
+    "file.gist.reindex.count": "8",
+    "fileTypeChangedCounter": "3",
+    "ide.updates.old.dirs.scan.scheduled": "1646192561838",
+    "ide.updates.whats.new.shown.for": "212",
+    "ignoreUltimateEdition": "true",
+    "last_open_solution_path": "/Users/dean/Projects/osu",
+    "registry.to.advanced.settings.migration.build": "RD-221.4501.83",
+    "tasks.pass.word.conversion.enforced": "true",
+    "toolwindow.stripes.buttons.info.shown": "true",
+    "ts.lib.d.ts.version": "4.5.4"
+  },
+  "keyToStringList": {
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.jetbrains.rider.cpp.fileType.CppHeaderFileTypeDetector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+  <component name="ToolbarSettingsService">
+    <option name="SHOW_NEW_MAIN_TOOLBAR" value="true" />
+  </component>
+</application>

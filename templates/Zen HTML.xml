@@ -1,28 +1,18 @@
 <templateSet group="Zen HTML">
   <template name="c" value="&lt;!-- $END$ --&gt;" description="&lt;!-- --&gt;" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JSX_HTML" value="true" />
-    </context>
+    <context />
   </template>
   <template name="a" value="&lt;a href=&quot;$VAR0$&quot;&gt;$END$&lt;/a&gt;" description="&lt;a href=&quot;...&quot;&gt;...&lt;/a&gt;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="JSX_HTML" value="true" />
-    </context>
+    <context />
   </template>
   <template name="p" value="&lt;p&gt;$END$&lt;/p&gt;" description="&lt;p&gt;...&lt;/p&gt;" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JSX_HTML" value="true" />
-    </context>
+    <context />
   </template>
   <template name="b" value="&lt;b&gt;$END$&lt;/b&gt;" description="&lt;b&gt;...&lt;/b&gt;" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JSX_HTML" value="true" />
-    </context>
+    <context />
   </template>
   <template name="i" value="&lt;i&gt;$END$&lt;/i&gt;" description="&lt;i&gt;...&lt;/i&gt;" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JSX_HTML" value="true" />
-    </context>
+    <context />
   </template>
 </templateSet>

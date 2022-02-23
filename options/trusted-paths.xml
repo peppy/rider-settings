@@ -1,0 +1,9 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/Projects/osu" value="true" />
+      </map>
+    </option>
+  </component>
+</application>
