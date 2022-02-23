@@ -3,33 +3,22 @@
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
     <keyboard-shortcut first-keystroke="meta semicolon" />
   </action>
-  <action id="ActivateDatabaseToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl meta 3" />
-    <keyboard-shortcut first-keystroke="ctrl alt d" />
-  </action>
-  <action id="ActivateDebugToolWindow">
-    <keyboard-shortcut first-keystroke="meta 5" />
-    <keyboard-shortcut first-keystroke="ctrl alt d" />
-  </action>
+  <action id="ActivateBookmarksToolWindow" />
+  <action id="ActivateDatabaseToolWindow" />
+  <action id="ActivateDebugToolWindow" />
   <action id="ActivateErrorsInSolutionToolWindow">
     <keyboard-shortcut first-keystroke="ctrl meta 2" />
     <keyboard-shortcut first-keystroke="ctrl alt x" />
   </action>
-  <action id="ActivateProjectToolWindow">
-    <keyboard-shortcut first-keystroke="meta alt l" />
-    <keyboard-shortcut first-keystroke="meta 1" />
-    <keyboard-shortcut first-keystroke="ctrl alt e" />
-  </action>
-  <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl meta 1" />
-    <keyboard-shortcut first-keystroke="ctrl back_quote" />
-  </action>
+  <action id="ActivateFindToolWindow" />
+  <action id="ActivateNuGetToolWindow" />
+  <action id="ActivateProblemsViewToolWindow" />
+  <action id="ActivateProjectToolWindow" />
+  <action id="ActivateRunToolWindow" />
+  <action id="ActivateStructureToolWindow" />
+  <action id="ActivateTerminalToolWindow" />
   <action id="ActivateUnitTestsToolWindow" />
-  <action id="ActivateVersionControlToolWindow">
-    <keyboard-shortcut first-keystroke="meta 9" />
-    <keyboard-shortcut first-keystroke="shift meta 9" />
-    <keyboard-shortcut first-keystroke="ctrl alt g" />
-  </action>
+  <action id="ActivateVersionControlToolWindow" />
   <action id="Arrangement.Alias.Rule.Edit" />
   <action id="Arrangement.Rule.Edit" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
@@ -187,9 +176,7 @@
   </action>
   <action id="Graph.ApplyCurrentLayout" />
   <action id="Graph.RouteEdges" />
-  <action id="HideActiveWindow">
-    <keyboard-shortcut first-keystroke="escape" />
-  </action>
+  <action id="HideActiveWindow" />
   <action id="HideAllWindows" />
   <action id="Images.Editor.ActualSize">
     <keyboard-shortcut first-keystroke="meta divide" />
@@ -205,7 +192,6 @@
     <keyboard-shortcut first-keystroke="alt x" />
   </action>
   <action id="JumpToLastWindow">
-    <keyboard-shortcut first-keystroke="f1" />
     <keyboard-shortcut first-keystroke="shift tab" />
   </action>
   <action id="Log.JumpToSource" />
@@ -299,13 +285,8 @@
     <keyboard-shortcut first-keystroke="f12" />
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
-  <action id="RiderUnitTestRunContextTwAction">
-    <keyboard-shortcut first-keystroke="shift enter" />
-    <keyboard-shortcut first-keystroke="meta r" />
-  </action>
+  <action id="RiderUnitTestRunContextAction" />
   <action id="RiderUnitTestRunContextUntilFailAction">
-    <keyboard-shortcut first-keystroke="meta u" second-keystroke="w" />
-    <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta w" />
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
   <action id="RiderUnitTestRunSolutionAction" />
