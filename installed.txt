@@ -6,3 +6,4 @@ com.codestream.jetbrains-codestream
 com.intellij.ideolog
 indent-rainbow.indent-rainbow
 izhangzhihao.rainbow.brackets
+org.nik.presentation-assistant

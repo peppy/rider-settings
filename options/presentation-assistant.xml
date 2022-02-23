@@ -1,0 +1,12 @@
+<application>
+  <component name="PresentationAssistant">
+    <option name="alternativeKeymap" />
+    <option name="fontSize" value="28" />
+    <option name="hideDelay" value="2000" />
+    <option name="mainKeymap">
+      <KeymapDescription>
+        <option name="name" value="Visual Studio OSX copy" />
+      </KeymapDescription>
+    </option>
+  </component>
+</application>
