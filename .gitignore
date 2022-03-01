@@ -20,3 +20,7 @@ options/customization.xml
 port
 options/trusted-paths.xml
 options/trustedSolutions.xml
+options/updates.xml
+options/runner.layout.xml
+options/other.xml
+options/project.default.xml

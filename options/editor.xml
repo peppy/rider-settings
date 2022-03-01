@@ -57,6 +57,11 @@
     <option name="ADD_CARETS_ON_DOUBLE_CTRL" value="false" />
     <option name="KEEP_TRAILING_SPACE_ON_CARET_LINE" value="false" />
   </component>
+  <component name="JSEditorOptions">
+    <option name="ESCAPE_PASTED_TEXT" value="false" />
+    <option name="CONVERT_HTML_TO_JSX" value="false" />
+    <option name="ESCAPE_DOC_ON_COPY_PASTE" value="false" />
+  </component>
   <component name="JavaCodeFoldingSettings">
     <option name="collapseAnnotations" value="true" />
   </component>
