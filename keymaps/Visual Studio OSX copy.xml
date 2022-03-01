@@ -176,7 +176,9 @@
   </action>
   <action id="Graph.ApplyCurrentLayout" />
   <action id="Graph.RouteEdges" />
-  <action id="HideActiveWindow" />
+  <action id="HideActiveWindow">
+    <keyboard-shortcut first-keystroke="escape" />
+  </action>
   <action id="HideAllWindows" />
   <action id="Images.Editor.ActualSize">
     <keyboard-shortcut first-keystroke="meta divide" />
