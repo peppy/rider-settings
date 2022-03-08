@@ -24,3 +24,5 @@ options/updates.xml
 options/runner.layout.xml
 options/other.xml
 options/project.default.xml
+extensions/com.intellij.database
+scratches

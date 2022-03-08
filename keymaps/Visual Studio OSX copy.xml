@@ -1,4 +1,5 @@
 <keymap version="1" name="Visual Studio OSX copy" parent="Visual Studio OSX">
+  <action id="$Copy" />
   <action id="AceAction">
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
     <keyboard-shortcut first-keystroke="meta semicolon" />
@@ -19,7 +20,9 @@
   <action id="ActivateTerminalToolWindow" />
   <action id="ActivateUnitTestsToolWindow" />
   <action id="ActivateVersionControlToolWindow" />
+  <action id="Arrangement.Alias.Rule.Add" />
   <action id="Arrangement.Alias.Rule.Edit" />
+  <action id="Arrangement.Rule.Add" />
   <action id="Arrangement.Rule.Edit" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
@@ -78,6 +81,9 @@
   </action>
   <action id="Console.TableResult.Submit" />
   <action id="ContextHelp" />
+  <action id="CopyAsPlainText">
+    <keyboard-shortcut first-keystroke="meta c" />
+  </action>
   <action id="CopyPaths" />
   <action id="Diff.NextChange">
     <keyboard-shortcut first-keystroke="ctrl tab" />
@@ -135,6 +141,7 @@
   </action>
   <action id="ExtractMethod" />
   <action id="FileChooser.GotoDesktop" />
+  <action id="FileChooser.NewFolder" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="meta r" />
@@ -211,7 +218,11 @@
     <keyboard-shortcut first-keystroke="shift alt up" />
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
+  <action id="NewElement" />
   <action id="NewElementSamePlace" />
+  <action id="NewScratchBuffer">
+    <keyboard-shortcut first-keystroke="meta n" />
+  </action>
   <action id="NextDiff">
     <keyboard-shortcut first-keystroke="n" />
   </action>
@@ -316,6 +327,7 @@
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
   <action id="SendEOF" />
+  <action id="ServiceView.AddService" />
   <action id="ServiceView.GroupByServiceGroups" />
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
@@ -363,6 +375,7 @@
   </action>
   <action id="TurnOffF10WinShortcut" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="Uml.NewElement" />
   <action id="UsageGrouping.Directory" />
   <action id="UsageView.Remove">
     <keyboard-shortcut first-keystroke="alt delete" />
