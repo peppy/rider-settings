@@ -9,15 +9,17 @@ rider.intellij.plugin.appender|null
 hg4idea|Version Controls
 com.jetbrains.sh|Languages
 com.jetbrains.rider.fsharp|Languages
+com.jetbrains.projector.libs|null
 org.jetbrains.plugins.remote-run|null
 org.jetbrains.plugins.vagrant|Deployment
 com.jetbrains.plugins.webDeployment|Deployment
 com.jetbrains.rider.publish.webDeploy|null
 com.jetbrains.plugins.ini4idea|Languages
-com.jetbrains.performancePlugin|Other Tools
+com.jetbrains.gateway|Remote Development
 com.jetbrains.dotCommon|null
 com.jetbrains.dpa|null
 com.jetbrains.dotTrace|null
+com.jetbrains.codeWithMe|null
 com.intellij.properties|Languages
 com.intellij.plugins.watcher|null
 com.intellij.platform.images|null
@@ -37,6 +39,7 @@ intellij.rider.cpp.debugger|null
 com.jetbrains.rider-cpp|null
 unreal-link|null
 com.intellij.CloudConfig|IDE Settings
+com.jetbrains.performancePlugin|Other Tools
 XPathView|HTML and XML
 org.intellij.intelliLang|Other Tools
 org.intellij.plugins.markdown|Languages
