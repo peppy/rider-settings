@@ -17,7 +17,7 @@
           <option name="needNotifyWhenStoppedInExternalCode" value="false" />
           <option name="showRunToPanel" value="false" />
           <option name="showTypeVariables" value="false" />
-          <option name="smartStepIntoByDefault" value="false" />
+          <option name="smartStepIntoShowAlreadyExecutedTargets" value="true" />
           <option name="userUnhandledExceptionsIgnoreList">
             <list>
               <option value="System.OperationCanceledException" />
