@@ -58,13 +58,7 @@
     <keyboard-shortcut first-keystroke="shift meta divide" />
     <keyboard-shortcut first-keystroke="shift meta slash" />
   </action>
-  <action id="CommentByLineComment">
-    <keyboard-shortcut first-keystroke="meta alt slash" />
-    <keyboard-shortcut first-keystroke="meta alt divide" />
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="c" />
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta c" />
-    <keyboard-shortcut first-keystroke="meta slash" />
-  </action>
+  <action id="CommentByLineComment" />
   <action id="CompareTwoFiles" />
   <action id="CompileDirty" />
   <action id="Console.DbmsOutput" />
@@ -178,6 +172,8 @@
   </action>
   <action id="GotoFile" />
   <action id="GotoLine" />
+  <action id="GotoNextBookmark" />
+  <action id="GotoPreviousBookmark" />
   <action id="Graph.ActualSize">
     <keyboard-shortcut first-keystroke="meta divide" />
   </action>
@@ -256,14 +252,7 @@
     <keyboard-shortcut first-keystroke="meta b" />
   </action>
   <action id="Refactorings.QuickListPopupAction" />
-  <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="meta alt enter" />
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="f" />
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta f" />
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="d" />
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta d" />
-    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl f" />
-  </action>
+  <action id="ReformatCode" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
@@ -360,7 +349,9 @@
   </action>
   <action id="SurroundWith" />
   <action id="SwitchDesignerToCode" />
+  <action id="SwitchHeaderSource" />
   <action id="TodoViewGroupByShowPackages" />
+  <action id="ToggleBookmark" />
   <action id="ToggleFindInSelection" />
   <action id="ToggleFullScreen">
     <keyboard-shortcut first-keystroke="shift alt enter" />
