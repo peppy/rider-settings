@@ -1,0 +1,15 @@
+<application>
+  <component name="OSFileAssociationPreferences">
+    <option name="fileTypeNames">
+      <list>
+        <option value="C#" />
+        <option value="Csproj" />
+        <option value="Log" />
+        <option value="Markdown" />
+        <option value="Project file" />
+        <option value="Properties" />
+      </list>
+    </option>
+    <option name="ideLocationHash" value="A944D34F7E9811653564C66D4732A2C0" />
+  </component>
+</application>
