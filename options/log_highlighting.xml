@@ -1,16 +1,21 @@
 <application>
   <component name="LogHighlightingSettings">
     <highlightingPatterns>
-      <LogHighlightingPattern pattern="^\s*e(rror)?\s*$" action="HIGHLIGHT_LINE" fg="-65536" bold="true" stripe="true" />
-      <LogHighlightingPattern pattern="^\s*w(arn(ing)?)?\s*$" action="HIGHLIGHT_LINE" fg="-22016" bold="true" />
-      <LogHighlightingPattern pattern="^\s*i(nfo)?\s*$" action="HIGHLIGHT_LINE" fg="-12599489" />
+      <LogHighlightingPattern pattern="^\s*w(arn(ing)?)?\s*$" action="HIGHLIGHT_LINE" fg="-22016" bold="true" uuid="11ff1574-2118-4722-905a-61bec89b079e" />
+      <LogHighlightingPattern pattern="^.*debug.*$" action="HIGHLIGHT_LINE" fg="-12237478" uuid="401dcd3c-c491-47f0-953a-d3ce927eed3b" />
+      <LogHighlightingPattern pattern="^.*verbose.*$" action="HIGHLIGHT_LINE" fg="-9539964" uuid="23a18dfa-8044-413c-bcc4-030b1e85da3c" />
+      <LogHighlightingPattern pattern="^error$" action="HIGHLIGHT_LINE" bg="-13036524" stripe="true" uuid="2a4291a1-6db5-46f1-a2bc-a99941953bd3" />
+      <LogHighlightingPattern pattern="[a-z]*\.[a-z]*Exception" fg="-65536" bold="true" stripe="true" uuid="9e662ede-5b22-4499-b87a-0af58cc1b738" />
+      <LogHighlightingPattern pattern="ScreenStack" fg="-12235" stripe="true" uuid="53223b76-dbaa-409f-84aa-cc892a8724b0" />
     </highlightingPatterns>
     <parsingPatterns>
-      <LogParsingPattern name="Pipe-separated" pattern="^(?s)([^|]*)\|([^|]*)\|([^|]*)\|(.*)$" timePattern="HH:mm:ss.SSS" linePattern="^\d" timeId="0" severityId="1" categoryId="2" />
-      <LogParsingPattern name="IntelliJ IDEA" pattern="^([^\[]+)(\[[\s\d]+])\s*(\w*)\s*-\s*(\S*)\s*-(.+)$" timePattern="yyyy-MM-dd HH:mm:ss,SSS" linePattern="^\d" timeId="0" severityId="2" categoryId="3" />
-      <LogParsingPattern name="TeamCity build log" pattern="^\[([^]]+)](.):\s*(\[[^]]+])?(.*)$" timePattern="HH:mm:ss" linePattern="^\[" timeId="0" severityId="1" categoryId="2" />
+      <LogParsingPattern enabled="false" name="Pipe-separated" pattern="^(?s)([^|]*)\|([^|]*)\|([^|]*)\|(.*)$" timePattern="HH:mm:ss.SSS" linePattern="^\d" timeId="0" severityId="1" categoryId="2" uuid="2c0da283-2894-43dc-ae5a-bfdcae346dc1" />
+      <LogParsingPattern enabled="false" name="IntelliJ IDEA" pattern="^([^\[]+)(\[[\s\d]+])\s*(\w*)\s*-\s*(\S*)\s*-(.+)$" timePattern="yyyy-MM-dd HH:mm:ss,SSS" linePattern="^\d" timeId="0" severityId="2" categoryId="3" uuid="8a0e8992-94cb-4f4c-8be2-42b03609626b" />
+      <LogParsingPattern enabled="false" name="TeamCity build log" pattern="^\[([^]]+)](.):\s*(\[[^]]+])?(.*)$" timePattern="HH:mm:ss" linePattern="^\[" timeId="0" severityId="1" categoryId="2" uuid="e9fa2755-8390-42f5-a41e-a909c58c8cf9" />
+      <LogParsingPattern enabled="false" name="All" pattern="^(.*?)(\s(.*?))?(\s(.*?))?(\s(.*?))?(\s(.*?))?(\s(.*?))?(\s(.*?))?$" uuid="db0779ce-9fd3-11ec-b909-0242ac120002" />
+      <LogParsingPattern name="osu!framework" pattern="^(.*) \[(.*)\]: (.*)$" timePattern="yyyy-MM-dd HH:mm:ss" linePattern="^\d" timeId="0" severityId="1" uuid="f58d0695-1393-4113-81b1-0ff6acd8cb21" />
     </parsingPatterns>
-    <settingsVersion>4</settingsVersion>
-    <lastAddedDefaultFormat>3</lastAddedDefaultFormat>
+    <settingsVersion>6</settingsVersion>
+    <lastAddedDefaultFormat>b5772998-bf1e-4d9d-ab41-da0b86451163,8a0e8992-94cb-4f4c-8be2-42b03609626b,e9fa2755-8390-42f5-a41e-a909c58c8cf9,db0779ce-9fd3-11ec-b909-0242ac120002</lastAddedDefaultFormat>
   </component>
 </application>
