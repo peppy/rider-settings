@@ -25,12 +25,10 @@
     <entry key="ide.tree.expand.navigatable.on.double.click.disabled" value="true" />
     <entry key="use.tabbed.welcome.screen" value="false" />
     <entry key="ide.new.project.model" value="true" />
-    <entry key="external.system.configuration.import.enabled" value="false" />
     <entry key="select.run.configuration.from.context" value="false" />
     <entry key="run.popup.move.folders.to.top" value="true" />
     <entry key="ide.mac.pressAndHold.workaround" value="false" />
     <entry key="ide.web.preview.enabled" value="false" />
-    <entry key="ide.tooltip.initialDelay" value="400" />
     <entry key="ide.experimental.ui.toolwindow.stripes" value="true" />
     <entry key="rdclient.asyncActions" value="false" />
     <entry key="rider.enable.designer.winForms" value="true" />
