@@ -83,4 +83,15 @@
       <option name="XML" value="false" />
     </context>
   </template>
+  <template name="rprop" value="[Resolved]&#10;private $NAME$ $name$ { get; set; }&#10;$END$" description="[Resolved] property" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="camelCase(NAME)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
 </templateSet>
