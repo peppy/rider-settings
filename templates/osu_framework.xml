@@ -1,0 +1,133 @@
+<templateSet group="osu!framework">
+  <template name="ofbdl" value="[BackgroundDependencyLoader]&#10;private void load()&#10;{&#10;    $END$&#10;}" description="BackgroundDependencyLoader load() method" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="ofss" value="AddStep(&quot;$NAME$&quot;, () =&gt;&#10;{&#10;    $END$&#10;});" description="osu!framework step" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ANY_OPENAPI_JSON_FILE" value="false" />
+      <option name="ANY_OPENAPI_YAML_FILE" value="false" />
+      <option name="GENERAL_JSON_FILE" value="false" />
+      <option name="GENERAL_YAML_FILE" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="ofsu" value="AddUntilStep(&quot;wait for $NAME$&quot;, () =&gt;&#10;{&#10;    $END$&#10;});" description="osu!framework until step" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ANY_OPENAPI_JSON_FILE" value="false" />
+      <option name="ANY_OPENAPI_YAML_FILE" value="false" />
+      <option name="GENERAL_JSON_FILE" value="false" />
+      <option name="GENERAL_YAML_FILE" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="ofsa" value="AddAssert(&quot;$NAME$&quot;, () =&gt;&#10;{&#10;    $END$&#10;});" description="osu!framework assert step" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ANY_OPENAPI_JSON_FILE" value="false" />
+      <option name="ANY_OPENAPI_YAML_FILE" value="false" />
+      <option name="GENERAL_JSON_FILE" value="false" />
+      <option name="GENERAL_YAML_FILE" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="ofsus" value="[SetUpSteps]&#10;public void SetUpSteps()&#10;{&#10;    $END$&#10;}&#10;" description="osu!framework [SetUpSteps]" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ANY_OPENAPI_JSON_FILE" value="false" />
+      <option name="ANY_OPENAPI_YAML_FILE" value="false" />
+      <option name="GENERAL_JSON_FILE" value="false" />
+      <option name="GENERAL_YAML_FILE" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="ofts" value="public class TestScene$CLASSNAME$ : OsuTestScene&#10;{&#10;    [Test]&#10;    public void Test()&#10;    {&#10;        $END$&#10;    }&#10;}&#10;" description="osu!framework test scene" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASSNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="oft" value="[Test]&#10;public void Test$NAME$()&#10;{&#10;    $END$&#10;}&#10;" description="nUnit [Test]" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="rprop" value="[Resolved]&#10;private $NAME$ $name$ { get; set; }&#10;$END$" description="[Resolved] property" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="camelCase(NAME)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="ofao" value="Anchor = Anchor.$anchor$,&#10;Origin = Anchor.$anchor$," description="Anchor=,Origin=" toReformat="true" toShortenFQNames="true">
+    <variable name="anchor" expression="" defaultValue="&quot;Centre&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ofbox" value="new Box&#10;{&#10;&#9;Colour = Color4.Black,&#10;&#9;RelativeSizeAxes = Axes.Both,&#10;}," description="osu!framework box template" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ofc" value="Children = new Drawable[]&#10;{&#10;&#9;$END$&#10;};" description="osu!framework Children" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ofcont" value="new Container&#10;{&#10;&#9;RelativeSizeAxes = Axes.Both,&#10;&#9;Children = new Drawable[]&#10;&#9;{&#10;&#9;&#9;$END$&#10;&#9;}&#10;}," description="osu!framework Container" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="offf" value="new FillFlowContainer&#10;{&#10;&#9;RelativeSizeAxes = Axes.Both,&#10;&#9;Direction = FillDirection.Vertical,&#10;&#9;Children = new Drawable[]&#10;&#9;{&#10;&#9;&#9;$END$&#10;&#9;}&#10;}," description="osu!framework FillFlow" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ofgc" value="new GridContainer&#10;{&#10;&#9;RelativeSizeAxes = Axes.Both,&#10;&#9;Content = new[]&#10;&#9;{&#10;&#9;&#9;new Drawable[] { $END$ },&#10;&#9;&#9;new Drawable[] { }&#10;&#9;}&#10;};" description="osu!framework GridContainer" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ofic" value="InternalChildren = new Drawable[]&#10;{&#10;&#9;$END$&#10;};" description="osu!framework InternalChildren={}" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

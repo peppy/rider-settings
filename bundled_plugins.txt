@@ -1,11 +1,11 @@
 com.intellij|null
+rider.intellij.plugin.appender|null
 org.jetbrains.settingsRepository|IDE Settings
 org.jetbrains.plugins.yaml|Languages
 org.jetbrains.plugins.textmate|Other Tools
 org.jetbrains.plugins.terminal|Other Tools
 org.jetbrains.fortea|null
 org.editorconfig.editorconfigjetbrains|Other Tools
-rider.intellij.plugin.appender|null
 hg4idea|Version Controls
 com.jetbrains.sh|Languages
 com.jetbrains.rider.fsharp|Languages
@@ -38,14 +38,13 @@ org.jetbrains.plugins.stylus|Style Sheets
 org.jetbrains.plugins.sass|Style Sheets
 org.jetbrains.plugins.less|Style Sheets
 com.intellij.completion.ml.ranking|Other Tools
-com.intellij.stats.completion|Other Tools
 com.intellij.cidr.debugger|null
 intellij.rider.cpp.debugger|null
 com.jetbrains.rider-cpp|null
 unreal-link|null
 com.intellij.CloudConfig|IDE Settings
-com.jetbrains.dotTrace|null
 com.jetbrains.performancePlugin|Other Tools
+com.jetbrains.dotTrace|null
 XPathView|HTML and XML
 org.intellij.intelliLang|Other Tools
 org.intellij.plugins.markdown|Languages

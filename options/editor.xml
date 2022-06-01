@@ -13,6 +13,7 @@
     <option name="HIGHLIGHT_SCOPE" value="true" />
   </component>
   <component name="CodeVisionSettings">
+    <option name="defaultPosition" value="Right" />
     <option name="enabled" value="false" />
   </component>
   <component name="DaemonCodeAnalyzerSettings">
@@ -72,6 +73,9 @@
     <option name="AUTO_QUOTE_PROP_NAME" value="false" />
     <option name="AUTO_WHITESPACE_AFTER_COLON" value="false" />
     <option name="ESCAPE_PASTED_TEXT" value="false" />
+  </component>
+  <component name="RiderCodeLensSettings">
+    <option name="showUnavailableLenses" value="false" />
   </component>
   <component name="TodoConfiguration">
     <pattern pattern="\bNotImplementedException\b" />

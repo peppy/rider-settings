@@ -29,8 +29,15 @@
               <option value="System.BadImageFormatException" />
               <option value="NUnit.Framework.AssertionException" />
               <option value="System.NullReferenceException" />
+              <option value="osu.Framework.Allocation.DependencyNotRegisteredException" />
+              <option value="System.InvalidOperationException" />
             </list>
           </option>
+        </configuration>
+      </debugger>
+      <debugger id="javascript">
+        <configuration>
+          <custom-object-presentation />
         </configuration>
       </debugger>
       <debugger id="oracle">

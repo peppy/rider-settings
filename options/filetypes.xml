@@ -5,6 +5,7 @@
       <mapping pattern="LabelledSliderBar" type="AUTO_DETECTED" />
       <mapping pattern=".ideavimrc" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping ext="osr" type="PLAIN_TEXT" />
       <mapping ext="osu" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />

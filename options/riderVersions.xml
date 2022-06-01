@@ -4,6 +4,7 @@
     <option name="bigSurAlertsVersion" value="1" />
     <option name="borderlessTitleClasspathVersion" value="2" />
     <option name="breakOnUserUnhandledExceptionsVersion" value="1" />
+    <option name="codeVisionSettingsTransfer" value="1" />
     <option name="commitWindowDoubleClickVersion" value="1" />
     <option name="commonSshSettingsMigration" value="1" />
     <option name="debuggerInlayVersion" value="3" />
