@@ -1,5 +1,6 @@
 <application>
   <component name="CodeFoldingSettings">
+    <option name="COLLAPSE_FILE_HEADER" value="false" />
     <option name="COLLAPSE_CUSTOM_FOLDING_REGIONS" value="true" />
   </component>
   <component name="CodeInsightSettings">
@@ -14,7 +15,22 @@
   </component>
   <component name="CodeVisionSettings">
     <option name="defaultPosition" value="Right" />
-    <option name="enabled" value="false" />
+    <option name="disabledCodeVisionProviderIds">
+      <set>
+        <option value="Burst compiled code" />
+        <option value="Covering tests" />
+        <option value="Exposing API" />
+        <option value="Extension methods" />
+        <option value="F# Inferred types" />
+        <option value="IL code" />
+        <option value="UFunctions implementations" />
+        <option value="UProperties write access" />
+        <option value="Unity implicit usage" />
+        <option value="Unity serialized field" />
+        <option value="VcsAuthorCodeLensProvider" />
+        <option value="derived blueprint class" />
+      </set>
+    </option>
   </component>
   <component name="DaemonCodeAnalyzerSettings">
     <option name="AUTOREPARSE_DELAY" value="0" />
@@ -45,6 +61,7 @@
     <option name="STRIP_TRAILING_SPACES" value="Whole" />
     <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
     <option name="REMOVE_TRAILING_BLANK_LINES" value="true" />
+    <option name="SHOW_INSPECTION_WIDGET" value="false" />
     <option name="SHOW_INTENTION_BULB" value="false" />
     <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
     <option name="IS_FOLDING_OUTLINE_SHOWN" value="false" />
@@ -54,6 +71,7 @@
     <option name="IS_LEADING_WHITESPACES_SHOWN" value="false" />
     <option name="IS_INNER_WHITESPACES_SHOWN" value="false" />
     <option name="IS_DND_ENABLED" value="false" />
+    <option name="IS_WHEEL_FONTCHANGE_PERSISTENT" value="true" />
     <option name="PRESELECT_RENAME" value="false" />
     <option name="ADD_CARETS_ON_DOUBLE_CTRL" value="false" />
     <option name="KEEP_TRAILING_SPACE_ON_CARET_LINE" value="false" />

@@ -5,8 +5,10 @@
         <entry key="confirm.rerun.with.termination" value="false" />
         <entry key="editor.maximize.on.double.click" value="false" />
         <entry key="ide.cycle.scrolling" value="false" />
+        <entry key="ide.open.readme.md.on.startup" value="false" />
         <entry key="ide.suppress.double.click.handler" value="true" />
-        <entry key="se.text.search" value="true" />
+        <entry key="markdown.hide.floating.toolbar" value="true" />
+        <entry key="temporary.configurations.limit" value="1" />
         <entry key="vcs.process.ignored" value="false" />
       </map>
     </option>

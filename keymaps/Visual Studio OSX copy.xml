@@ -32,10 +32,7 @@
   <action id="ChangeSignature" />
   <action id="ChangesView.Diff" />
   <action id="ChangesView.GroupBy.Directory" />
-  <action id="CheckinProject">
-    <keyboard-shortcut first-keystroke="meta alt k" />
-    <keyboard-shortcut first-keystroke="shift meta c" />
-  </action>
+  <action id="CheckinProject" />
   <action id="ChooseDebugConfiguration" />
   <action id="ChooseRunConfiguration">
     <keyboard-shortcut first-keystroke="shift meta alt r" />
@@ -156,6 +153,10 @@
   <action id="Forward">
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
+  <action id="Git.Commit.And.Push.Executor" />
+  <action id="Git.Commit.Stage">
+    <keyboard-shortcut first-keystroke="shift meta c" />
+  </action>
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
@@ -179,6 +180,7 @@
   </action>
   <action id="Graph.ApplyCurrentLayout" />
   <action id="Graph.RouteEdges" />
+  <action id="Hg.Commit.And.Push.Executor" />
   <action id="HideActiveWindow">
     <keyboard-shortcut first-keystroke="escape" />
   </action>
