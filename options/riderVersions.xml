@@ -1,5 +1,6 @@
 <application>
   <component name="RiderSettingsUpdater">
+    <option name="allEditorsZoom" value="1" />
     <option name="autoPopupSummaryInfoVersion" value="1" />
     <option name="bigSurAlertsVersion" value="1" />
     <option name="borderlessTitleClasspathVersion" value="2" />

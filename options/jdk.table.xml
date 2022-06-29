@@ -5,6 +5,9 @@
       <type value="JavaSDK" />
       <homePath value="/Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home" />
       <roots>
+        <annotationsPath>
+          <root type="composite" />
+        </annotationsPath>
         <classPath>
           <root type="composite">
             <root url="jrt:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home!/java.base" type="simple" />
@@ -79,6 +82,9 @@
             <root url="jrt:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home!/jdk.zipfs" type="simple" />
           </root>
         </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
         <sourcePath>
           <root type="composite">
             <root url="jar:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.se" type="simple" />
@@ -157,89 +163,358 @@
       <additional />
     </jdk>
     <jdk version="2">
+      <name value="11" />
+      <type value="JavaSDK" />
+      <version value="version 11.0.12" />
+      <homePath value="/Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home" />
+      <roots>
+        <annotationsPath>
+          <root type="composite" />
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/java.base" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/java.compiler" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/java.datatransfer" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/java.desktop" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/java.instrument" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/java.logging" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/java.management" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/java.management.rmi" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/java.naming" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/java.net.http" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/java.prefs" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/java.rmi" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/java.scripting" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/java.se" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/java.security.jgss" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/java.security.sasl" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/java.smartcardio" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/java.sql" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/java.sql.rowset" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/java.transaction.xa" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/java.xml" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/java.xml.crypto" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.accessibility" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.aot" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.attach" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.charsets" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.compiler" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.crypto.cryptoki" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.crypto.ec" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.dynalink" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.editpad" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.hotspot.agent" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.httpserver" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.internal.ed" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.internal.jvmstat" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.internal.le" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.internal.opt" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.internal.vm.ci" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.internal.vm.compiler" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.internal.vm.compiler.management" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.jartool" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.javadoc" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.jcmd" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.jconsole" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.jdeps" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.jdi" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.jdwp.agent" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.jfr" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.jlink" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.jshell" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.jsobject" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.jstatd" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.localedata" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.management" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.management.agent" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.management.jfr" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.naming.dns" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.naming.ldap" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.naming.rmi" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.net" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.pack" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.rmic" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.scripting.nashorn" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.scripting.nashorn.shell" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.sctp" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.security.auth" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.security.jgss" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.unsupported" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.unsupported.desktop" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.xml.dom" type="simple" />
+            <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.zipfs" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/java.se" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.aot" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.jdi" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.jfr" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.net" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/java.rmi" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/java.sql" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/java.xml" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.jcmd" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.pack" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.rmic" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.sctp" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/java.base" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.jdeps" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.jlink" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.zipfs" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/java.prefs" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.attach" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.jshell" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.jstatd" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/java.naming" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.editpad" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.jartool" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.javadoc" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.xml.dom" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/java.desktop" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/java.logging" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.charsets" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.compiler" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.dynalink" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.jconsole" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.jsobject" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/java.compiler" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/java.net.http" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.crypto.ec" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/java.scripting" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.httpserver" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.jdwp.agent" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.localedata" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.management" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.naming.dns" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.naming.rmi" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/java.instrument" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/java.management" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/java.sql.rowset" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/java.xml.crypto" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.internal.ed" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.internal.le" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.naming.ldap" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.unsupported" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/java.smartcardio" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.internal.opt" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/java.datatransfer" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.accessibility" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.hotspot.agent" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.security.auth" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.security.jgss" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/java.security.jgss" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/java.security.sasl" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.internal.vm.ci" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.management.jfr" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/java.management.rmi" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/java.transaction.xa" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.crypto.cryptoki" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.internal.jvmstat" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.management.agent" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.scripting.nashorn" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.unsupported.desktop" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.internal.vm.compiler" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.scripting.nashorn.shell" type="simple" />
+            <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/jdk.internal.vm.compiler.management" type="simple" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
       <name value="Android API 26 Platform" />
       <type value="Android SDK" />
       <homePath value="$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx" />
       <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://$APPLICATION_PLUGINS_DIR$/rider-android/lib/androidAnnotations.jar!/" type="simple" />
+          </root>
+        </annotationsPath>
         <classPath>
           <root type="composite">
             <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-26/android.jar!/" type="simple" />
             <root url="file://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-26/data/res" type="simple" />
           </root>
         </classPath>
+        <javadocPath>
+          <root type="composite">
+            <root url="http://developer.android.com/reference/" type="simple" />
+          </root>
+        </javadocPath>
         <sourcePath>
           <root type="composite" />
         </sourcePath>
       </roots>
-      <additional jdk="12" sdk="android-26" />
+      <additional jdk="11" sdk="android-26" />
     </jdk>
     <jdk version="2">
       <name value="Android API 27 Platform" />
       <type value="Android SDK" />
       <homePath value="$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx" />
       <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://$APPLICATION_PLUGINS_DIR$/rider-android/lib/androidAnnotations.jar!/" type="simple" />
+          </root>
+        </annotationsPath>
         <classPath>
           <root type="composite">
             <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-27/android.jar!/" type="simple" />
             <root url="file://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-27/data/res" type="simple" />
           </root>
         </classPath>
+        <javadocPath>
+          <root type="composite">
+            <root url="http://developer.android.com/reference/" type="simple" />
+          </root>
+        </javadocPath>
         <sourcePath>
           <root type="composite" />
         </sourcePath>
       </roots>
-      <additional jdk="12" sdk="android-27" />
+      <additional jdk="11" sdk="android-27" />
     </jdk>
     <jdk version="2">
       <name value="Android API 28 Platform" />
       <type value="Android SDK" />
       <homePath value="$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx" />
       <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-28/data/annotations.zip!/" type="simple" />
+          </root>
+        </annotationsPath>
         <classPath>
           <root type="composite">
             <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-28/android.jar!/" type="simple" />
             <root url="file://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-28/data/res" type="simple" />
           </root>
         </classPath>
+        <javadocPath>
+          <root type="composite">
+            <root url="http://developer.android.com/reference/" type="simple" />
+          </root>
+        </javadocPath>
         <sourcePath>
           <root type="composite" />
         </sourcePath>
       </roots>
-      <additional jdk="12" sdk="android-28" />
+      <additional jdk="11" sdk="android-28" />
     </jdk>
     <jdk version="2">
       <name value="Android API 29 Platform" />
       <type value="Android SDK" />
       <homePath value="$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx" />
       <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-29/data/annotations.zip!/" type="simple" />
+          </root>
+        </annotationsPath>
         <classPath>
           <root type="composite">
             <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-29/android.jar!/" type="simple" />
             <root url="file://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-29/data/res" type="simple" />
           </root>
         </classPath>
+        <javadocPath>
+          <root type="composite">
+            <root url="http://developer.android.com/reference/" type="simple" />
+          </root>
+        </javadocPath>
         <sourcePath>
           <root type="composite" />
         </sourcePath>
       </roots>
-      <additional jdk="12" sdk="android-29" />
+      <additional jdk="11" sdk="android-29" />
     </jdk>
     <jdk version="2">
       <name value="Android API 29, R preview Platform" />
       <type value="Android SDK" />
       <homePath value="$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx" />
       <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-R/data/annotations.zip!/" type="simple" />
+          </root>
+        </annotationsPath>
         <classPath>
           <root type="composite">
             <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-R/android.jar!/" type="simple" />
             <root url="file://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-R/data/res" type="simple" />
           </root>
         </classPath>
+        <javadocPath>
+          <root type="composite">
+            <root url="http://developer.android.com/reference/" type="simple" />
+          </root>
+        </javadocPath>
         <sourcePath>
           <root type="composite" />
         </sourcePath>
       </roots>
-      <additional jdk="12" sdk="android-R" />
+      <additional jdk="11" sdk="android-R" />
+    </jdk>
+    <jdk version="2">
+      <name value="Android API 30 Platform" />
+      <type value="Android SDK" />
+      <homePath value="$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-30/data/annotations.zip!/" type="simple" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-30/android.jar!/" type="simple" />
+            <root url="file://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-30/data/res" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite">
+            <root url="http://developer.android.com/reference/" type="simple" />
+          </root>
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional jdk="11" sdk="android-30" />
+    </jdk>
+    <jdk version="2">
+      <name value="Android API 31 Platform" />
+      <type value="Android SDK" />
+      <homePath value="$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-31/data/annotations.zip!/" type="simple" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-31/android.jar!/" type="simple" />
+            <root url="file://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-31/data/res" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite">
+            <root url="http://developer.android.com/reference/" type="simple" />
+          </root>
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional jdk="11" sdk="android-31" />
     </jdk>
   </component>
 </application>
