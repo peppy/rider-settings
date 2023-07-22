@@ -1,0 +1,323 @@
+<application>
+  <component name="ToolWindowLayout"><![CDATA[{
+  "layouts": {
+    "Custom": {
+      "v1": [
+        {
+          "id": "Pull Requests"
+        },
+        {
+          "id": "Commit",
+          "isAutoHide": true,
+          "weight": 0.32999215
+        },
+        {
+          "id": "Bookmarks",
+          "order": 0,
+          "isSplit": true
+        },
+        {
+          "id": "Structure",
+          "order": 1,
+          "isSplit": true
+        },
+        {
+          "id": "TypeScript",
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Internal Method Tracing",
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "File Transfer",
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Version Control",
+          "order": 0,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Find",
+          "order": 1,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Run",
+          "order": 2,
+          "anchor": "BOTTOM",
+          "isAutoHide": true,
+          "weight": 0.58046407
+        },
+        {
+          "id": "Debug",
+          "order": 3,
+          "anchor": "BOTTOM",
+          "isAutoHide": true,
+          "weight": 0.40007484
+        },
+        {
+          "id": "TODO",
+          "order": 4,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Inspection",
+          "order": 5,
+          "anchor": "BOTTOM",
+          "weight": 0.4
+        },
+        {
+          "id": "dotTrace Profiler",
+          "order": 6,
+          "anchor": "BOTTOM",
+          "weight": 0.8536677
+        },
+        {
+          "id": "Database Changes",
+          "order": 7,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Terminal",
+          "order": 8,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "NuGet",
+          "order": 9,
+          "anchor": "BOTTOM",
+          "isAutoHide": true,
+          "weight": 0.32947284
+        },
+        {
+          "id": "Endpoints",
+          "order": 10,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Services",
+          "order": 11,
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Build",
+          "order": 12,
+          "anchor": "BOTTOM",
+          "isAutoHide": true,
+          "weight": 0.2548653
+        },
+        {
+          "id": "Dynamic Program Analysis",
+          "order": 13,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "dotMemory Profiler",
+          "order": 14,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "documentation.v2",
+          "anchor": "RIGHT",
+          "isSplit": true
+        },
+        {
+          "id": "Notifications",
+          "order": 0,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Unit Tests Coverage",
+          "order": 1,
+          "anchor": "RIGHT"
+        },
+        {
+          "id": "IL Viewer",
+          "order": 2,
+          "anchor": "RIGHT",
+          "weight": 0.32999215
+        },
+        {
+          "id": "Database",
+          "order": 3,
+          "anchor": "RIGHT"
+        },
+        {
+          "id": "Unit Tests",
+          "order": 4,
+          "anchor": "RIGHT",
+          "isAutoHide": true,
+          "weight": 0.386989
+        },
+        {
+          "id": "Problems View",
+          "order": 5,
+          "anchor": "RIGHT",
+          "weight": 0.2999416
+        },
+        {
+          "id": "Project",
+          "order": 6,
+          "anchor": "RIGHT",
+          "contentUiType": "COMBO",
+          "weight": 0.10554245
+        }
+      ],
+      "v2": [
+        {
+          "id": "Space Code Reviews",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Bookmarks",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Pull Requests",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Commit",
+          "order": 1,
+          "weight": 0.25
+        },
+        {
+          "id": "Structure",
+          "order": 2,
+          "weight": 0.25
+        },
+        {
+          "id": "Database Changes",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "TODO",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Unit Tests",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "dotTrace Profiler",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "NuGet",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "dotMemory Profiler",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Version Control",
+          "order": 0,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Problems",
+          "order": 1,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Problems View",
+          "order": 2,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Terminal",
+          "order": 3,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Logcat",
+          "order": 4,
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Services",
+          "order": 4,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Unit Tests Coverage",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "IL Viewer",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Layout Validation",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Notifications",
+          "order": 0,
+          "anchor": "RIGHT",
+          "contentUiType": "COMBO",
+          "weight": 0.25
+        },
+        {
+          "id": "Database",
+          "order": 1,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Gradle",
+          "order": 2,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Maven",
+          "order": 3,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Web Inspector",
+          "order": 4,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Device Manager",
+          "order": 4,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Project",
+          "order": 5,
+          "anchor": "RIGHT",
+          "contentUiType": "COMBO"
+        }
+      ],
+      "unifiedWeights": {
+        "top": 0.33,
+        "left": 0.25019655,
+        "bottom": 0.33,
+        "right": 0.33
+      }
+    }
+  }
+}]]></component>
+</application>

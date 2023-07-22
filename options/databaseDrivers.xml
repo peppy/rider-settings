@@ -5,14 +5,13 @@
     </driver>
     <driver id="mysql.8">
       <artifact />
-      <artifact id="MySQL ConnectorJ" name="MySQL ConnectorJ" use="true" version="8.0.21" />
-      <artifact id="MySQL Connector/J 8" name="MySQL Connector/J 8" use="true" version="8.0.15" />
+      <artifact id="MySQL ConnectorJ" name="MySQL ConnectorJ" use="true" version="8.0.25" />
     </driver>
     <driver id="mysql">
       <artifact id="MySQL ConnectorJ" name="MySQL ConnectorJ" use="true" version="5.1.47" />
     </driver>
     <driver id="sqlite.xerial">
-      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.34.0" />
+      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.38.0" />
       <library>
         <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.34.0/sqlite-jdbc-3.34.0.jar</url>
       </library>

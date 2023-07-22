@@ -1,0 +1,210 @@
+<application>
+  <component name="RiderPerAppToolWindowLayout"><![CDATA[{
+  "v2": [
+    {
+      "id": "Space Code Reviews",
+      "isShowStripeButton": false
+    },
+    {
+      "id": "Bookmarks",
+      "isShowStripeButton": false
+    },
+    {
+      "id": "Pull Requests",
+      "isShowStripeButton": false
+    },
+    {
+      "id": "Commit",
+      "order": 1,
+      "weight": 0.25019655
+    },
+    {
+      "id": "Structure",
+      "order": 2,
+      "weight": 0.25
+    },
+    {
+      "id": "Resources Explorer",
+      "order": 2,
+      "isShowStripeButton": false
+    },
+    {
+      "id": "Database Changes",
+      "anchor": "BOTTOM",
+      "isShowStripeButton": false
+    },
+    {
+      "id": "TODO",
+      "anchor": "BOTTOM",
+      "isShowStripeButton": false
+    },
+    {
+      "id": "Internal Method Tracing",
+      "anchor": "BOTTOM",
+      "isShowStripeButton": false
+    },
+    {
+      "id": "dotTrace Profiler",
+      "anchor": "BOTTOM",
+      "weight": 0.49738806
+    },
+    {
+      "id": "NuGet",
+      "anchor": "BOTTOM",
+      "weight": 0.45410448
+    },
+    {
+      "id": "Find",
+      "anchor": "BOTTOM",
+      "weight": 0.33022386
+    },
+    {
+      "id": "dotMemory Profiler",
+      "anchor": "BOTTOM",
+      "weight": 0.49738806
+    },
+    {
+      "id": "Version Control",
+      "order": 0,
+      "anchor": "BOTTOM",
+      "weight": 0.33022386
+    },
+    {
+      "id": "Problems",
+      "order": 1,
+      "anchor": "BOTTOM"
+    },
+    {
+      "id": "Run",
+      "order": 3,
+      "anchor": "BOTTOM",
+      "weight": 0.59440297
+    },
+    {
+      "id": "Terminal",
+      "order": 4,
+      "anchor": "BOTTOM"
+    },
+    {
+      "id": "Stacktrace",
+      "order": 5,
+      "anchor": "BOTTOM",
+      "weight": 0.53022385
+    },
+    {
+      "id": "Logcat",
+      "order": 5,
+      "anchor": "BOTTOM",
+      "isShowStripeButton": false
+    },
+    {
+      "id": "Build",
+      "order": 5,
+      "anchor": "BOTTOM",
+      "weight": 0.45410448
+    },
+    {
+      "id": "Debug",
+      "order": 5,
+      "anchor": "BOTTOM",
+      "weight": 0.59440297
+    },
+    {
+      "id": "Layout Inspector",
+      "order": 5,
+      "anchor": "BOTTOM",
+      "isShowStripeButton": false
+    },
+    {
+      "id": "Services",
+      "order": 5,
+      "anchor": "BOTTOM",
+      "weight": 0.1794776
+    },
+    {
+      "id": "Refactoring - Change signature",
+      "order": 5,
+      "anchor": "BOTTOM",
+      "weight": 0.16380596
+    },
+    {
+      "id": "Unit Tests Coverage",
+      "anchor": "RIGHT",
+      "weight": 0.3394261
+    },
+    {
+      "id": "IL Viewer",
+      "anchor": "RIGHT",
+      "isShowStripeButton": false
+    },
+    {
+      "id": "documentation.v2",
+      "anchor": "RIGHT",
+      "isShowStripeButton": false
+    },
+    {
+      "id": "Layout Validation",
+      "anchor": "RIGHT",
+      "isShowStripeButton": false
+    },
+    {
+      "id": "Notifications",
+      "order": 0,
+      "anchor": "RIGHT",
+      "contentUiType": "COMBO",
+      "weight": 0.2503943
+    },
+    {
+      "id": "Database",
+      "order": 1,
+      "anchor": "RIGHT",
+      "weight": 0.25019655
+    },
+    {
+      "id": "Gradle",
+      "order": 2,
+      "anchor": "RIGHT",
+      "weight": 0.25
+    },
+    {
+      "id": "Maven",
+      "order": 3,
+      "anchor": "RIGHT",
+      "weight": 0.25
+    },
+    {
+      "id": "Unit Tests",
+      "order": 4,
+      "anchor": "RIGHT",
+      "isActiveOnStart": true,
+      "isVisible": true,
+      "weight": 0.5190644
+    },
+    {
+      "id": "Project",
+      "order": 5,
+      "anchor": "RIGHT",
+      "contentUiType": "COMBO",
+      "weight": 0.3028695
+    },
+    {
+      "id": "Device File Explorer",
+      "order": 6,
+      "anchor": "RIGHT",
+      "isShowStripeButton": false
+    },
+    {
+      "id": "Problems View",
+      "order": 6,
+      "anchor": "RIGHT",
+      "weight": 0.39013365
+    },
+    {
+      "id": "Device Manager",
+      "order": 6,
+      "anchor": "RIGHT",
+      "weight": 0.32999215
+    }
+  ]
+}]]></component>
+</application>

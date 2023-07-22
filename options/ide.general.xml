@@ -1,10 +1,9 @@
 <application>
   <component name="GeneralSettings">
-    <option name="defaultProjectDirectory" value="$USER_HOME$/Projects" />
-    <option name="inactiveTimeout" value="5" />
-    <option name="processCloseConfirmation" value="TERMINATE" />
     <option name="showTipsOnStartup" value="false" />
-    <option name="useSafeWrite" value="false" />
+    <option name="confirmOpenNewProject2" value="-1" />
+    <option name="processCloseConfirmation" value="TERMINATE" />
+    <option name="inactiveTimeout" value="5" />
   </component>
   <component name="Registry">
     <entry key="search.everywhere.configurations" value="false" />
@@ -31,16 +30,19 @@
     <entry key="ide.web.preview.enabled" value="false" />
     <entry key="ide.experimental.ui.toolwindow.stripes" value="true" />
     <entry key="rdclient.asyncActions" value="false" />
-    <entry key="rider.enable.designer.winForms" value="true" />
+    <entry key="ide.experimental.ui" value="true" />
+    <entry key="rider.enable.designer.winForms" value="false" />
+    <entry key="editor.distraction.free.mode" value="true" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
       <map>
+        <entry key="CwmWireStatsWidgetFactory" value="false" />
         <entry key="DPA" value="false" />
         <entry key="Encoding" value="false" />
         <entry key="Notifications" value="false" />
+        <entry key="PowerSaveMode" value="true" />
         <entry key="ReadOnlyAttribute" value="false" />
-        <entry key="RiderMemory" value="true" />
         <entry key="com.intellij.psi.codeStyle.statusbar.CodeStyleStatusBarWidget" value="false" />
         <entry key="settingsEntryPointWidget" value="false" />
       </map>

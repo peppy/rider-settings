@@ -1,4 +1,4 @@
 ide.experimental.ui
-false
-ide.mac.transparentTitleBarAppearance
 true
+ide.experimental.ui.inter.font
+false

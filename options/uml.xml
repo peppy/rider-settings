@@ -1,0 +1,13 @@
+<application>
+  <component name="UmlConfiguration">
+    <option name="fitContentAfterLayout" value="false" />
+    <option name="relayoutOnNewElements" value="false" />
+    <option name="categories">
+      <map>
+        <entry id="DATABASE" categories="Key columns;Columns;Virtual foreign keys;Comments" />
+        <entry id="DIFF" categories="Details" />
+        <entry id="QUERY_PLAN" categories="Attributes" />
+      </map>
+    </option>
+  </component>
+</application>

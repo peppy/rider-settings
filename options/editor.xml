@@ -14,35 +14,38 @@
     <option name="HIGHLIGHT_SCOPE" value="true" />
   </component>
   <component name="CodeVisionSettings">
+    <option name="codeVisionGroupToPosition">
+      <map>
+        <entry key="VcsAuthorCodeLensProvider" value="Default" />
+      </map>
+    </option>
     <option name="defaultPosition" value="Right" />
     <option name="disabledCodeVisionProviderIds">
       <set>
         <option value="Burst compiled code" />
-        <option value="Covering tests" />
-        <option value="Exposing API" />
-        <option value="Extension methods" />
         <option value="F# Inferred types" />
-        <option value="IL code" />
         <option value="UFunctions implementations" />
         <option value="UProperties write access" />
         <option value="Unity implicit usage" />
         <option value="Unity serialized field" />
-        <option value="VcsAuthorCodeLensProvider" />
-        <option value="derived blueprint class" />
       </set>
     </option>
+    <option name="enabled" value="false" />
   </component>
   <component name="DaemonCodeAnalyzerSettings">
-    <option name="AUTOREPARSE_DELAY" value="0" />
+    <option name="AUTOREPARSE_DELAY" value="500" />
     <option name="NEXT_ERROR_ACTION_GOES_TO_ERRORS_FIRST" value="false" />
     <option name="SUPPRESS_WARNINGS" value="false" />
   </component>
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
       <map>
+        <entry key="Asxx" value="true" />
         <entry key="C#" value="true" />
         <entry key="C++" value="true" />
         <entry key="Config" value="true" />
+        <entry key="F#" value="true" />
+        <entry key="F# Script" value="true" />
         <entry key="HTML" value="true" />
         <entry key="JSON" value="true" />
         <entry key="MSBuild" value="true" />
@@ -64,17 +67,19 @@
     <option name="SHOW_INSPECTION_WIDGET" value="false" />
     <option name="SHOW_INTENTION_BULB" value="false" />
     <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
+    <option name="ARE_LINE_NUMBERS_SHOWN" value="false" />
     <option name="IS_FOLDING_OUTLINE_SHOWN" value="false" />
     <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
     <option name="ENABLE_RENDERED_DOC" value="true" />
-    <option name="IS_WHITESPACES_SHOWN" value="true" />
     <option name="IS_LEADING_WHITESPACES_SHOWN" value="false" />
     <option name="IS_INNER_WHITESPACES_SHOWN" value="false" />
+    <option name="IS_INDENT_GUIDES_SHOWN" value="false" />
     <option name="IS_DND_ENABLED" value="false" />
     <option name="IS_WHEEL_FONTCHANGE_PERSISTENT" value="true" />
     <option name="PRESELECT_RENAME" value="false" />
     <option name="ADD_CARETS_ON_DOUBLE_CTRL" value="false" />
     <option name="KEEP_TRAILING_SPACE_ON_CARET_LINE" value="false" />
+    <option name="INSERT_PARENTHESES_AUTOMATICALLY" value="true" />
   </component>
   <component name="JSEditorOptions">
     <option name="ESCAPE_PASTED_TEXT" value="false" />
@@ -91,9 +96,6 @@
     <option name="AUTO_QUOTE_PROP_NAME" value="false" />
     <option name="AUTO_WHITESPACE_AFTER_COLON" value="false" />
     <option name="ESCAPE_PASTED_TEXT" value="false" />
-  </component>
-  <component name="RiderCodeLensSettings">
-    <option name="showUnavailableLenses" value="false" />
   </component>
   <component name="TodoConfiguration">
     <pattern pattern="\bNotImplementedException\b" />

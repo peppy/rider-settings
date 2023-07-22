@@ -5,9 +5,6 @@
       <type value="JavaSDK" />
       <homePath value="/Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home" />
       <roots>
-        <annotationsPath>
-          <root type="composite" />
-        </annotationsPath>
         <classPath>
           <root type="composite">
             <root url="jrt:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home!/java.base" type="simple" />
@@ -82,9 +79,6 @@
             <root url="jrt:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home!/jdk.zipfs" type="simple" />
           </root>
         </classPath>
-        <javadocPath>
-          <root type="composite" />
-        </javadocPath>
         <sourcePath>
           <root type="composite">
             <root url="jar:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.se" type="simple" />
@@ -168,9 +162,6 @@
       <version value="version 11.0.12" />
       <homePath value="/Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home" />
       <roots>
-        <annotationsPath>
-          <root type="composite" />
-        </annotationsPath>
         <classPath>
           <root type="composite">
             <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/java.base" type="simple" />
@@ -246,9 +237,6 @@
             <root url="jrt:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home!/jdk.zipfs" type="simple" />
           </root>
         </classPath>
-        <javadocPath>
-          <root type="composite" />
-        </javadocPath>
         <sourcePath>
           <root type="composite">
             <root url="jar:///Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/src.zip!/java.se" type="simple" />
@@ -332,22 +320,12 @@
       <type value="Android SDK" />
       <homePath value="$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx" />
       <roots>
-        <annotationsPath>
-          <root type="composite">
-            <root url="jar://$APPLICATION_PLUGINS_DIR$/rider-android/lib/androidAnnotations.jar!/" type="simple" />
-          </root>
-        </annotationsPath>
         <classPath>
           <root type="composite">
             <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-26/android.jar!/" type="simple" />
             <root url="file://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-26/data/res" type="simple" />
           </root>
         </classPath>
-        <javadocPath>
-          <root type="composite">
-            <root url="http://developer.android.com/reference/" type="simple" />
-          </root>
-        </javadocPath>
         <sourcePath>
           <root type="composite" />
         </sourcePath>
@@ -359,22 +337,12 @@
       <type value="Android SDK" />
       <homePath value="$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx" />
       <roots>
-        <annotationsPath>
-          <root type="composite">
-            <root url="jar://$APPLICATION_PLUGINS_DIR$/rider-android/lib/androidAnnotations.jar!/" type="simple" />
-          </root>
-        </annotationsPath>
         <classPath>
           <root type="composite">
             <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-27/android.jar!/" type="simple" />
             <root url="file://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-27/data/res" type="simple" />
           </root>
         </classPath>
-        <javadocPath>
-          <root type="composite">
-            <root url="http://developer.android.com/reference/" type="simple" />
-          </root>
-        </javadocPath>
         <sourcePath>
           <root type="composite" />
         </sourcePath>
@@ -386,22 +354,12 @@
       <type value="Android SDK" />
       <homePath value="$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx" />
       <roots>
-        <annotationsPath>
-          <root type="composite">
-            <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-28/data/annotations.zip!/" type="simple" />
-          </root>
-        </annotationsPath>
         <classPath>
           <root type="composite">
             <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-28/android.jar!/" type="simple" />
             <root url="file://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-28/data/res" type="simple" />
           </root>
         </classPath>
-        <javadocPath>
-          <root type="composite">
-            <root url="http://developer.android.com/reference/" type="simple" />
-          </root>
-        </javadocPath>
         <sourcePath>
           <root type="composite" />
         </sourcePath>
@@ -413,22 +371,12 @@
       <type value="Android SDK" />
       <homePath value="$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx" />
       <roots>
-        <annotationsPath>
-          <root type="composite">
-            <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-29/data/annotations.zip!/" type="simple" />
-          </root>
-        </annotationsPath>
         <classPath>
           <root type="composite">
             <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-29/android.jar!/" type="simple" />
             <root url="file://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-29/data/res" type="simple" />
           </root>
         </classPath>
-        <javadocPath>
-          <root type="composite">
-            <root url="http://developer.android.com/reference/" type="simple" />
-          </root>
-        </javadocPath>
         <sourcePath>
           <root type="composite" />
         </sourcePath>
@@ -440,22 +388,12 @@
       <type value="Android SDK" />
       <homePath value="$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx" />
       <roots>
-        <annotationsPath>
-          <root type="composite">
-            <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-R/data/annotations.zip!/" type="simple" />
-          </root>
-        </annotationsPath>
         <classPath>
           <root type="composite">
             <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-R/android.jar!/" type="simple" />
             <root url="file://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-R/data/res" type="simple" />
           </root>
         </classPath>
-        <javadocPath>
-          <root type="composite">
-            <root url="http://developer.android.com/reference/" type="simple" />
-          </root>
-        </javadocPath>
         <sourcePath>
           <root type="composite" />
         </sourcePath>
@@ -467,22 +405,12 @@
       <type value="Android SDK" />
       <homePath value="$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx" />
       <roots>
-        <annotationsPath>
-          <root type="composite">
-            <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-30/data/annotations.zip!/" type="simple" />
-          </root>
-        </annotationsPath>
         <classPath>
           <root type="composite">
             <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-30/android.jar!/" type="simple" />
             <root url="file://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-30/data/res" type="simple" />
           </root>
         </classPath>
-        <javadocPath>
-          <root type="composite">
-            <root url="http://developer.android.com/reference/" type="simple" />
-          </root>
-        </javadocPath>
         <sourcePath>
           <root type="composite" />
         </sourcePath>
@@ -494,27 +422,51 @@
       <type value="Android SDK" />
       <homePath value="$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx" />
       <roots>
-        <annotationsPath>
-          <root type="composite">
-            <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-31/data/annotations.zip!/" type="simple" />
-          </root>
-        </annotationsPath>
         <classPath>
           <root type="composite">
             <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-31/android.jar!/" type="simple" />
             <root url="file://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-31/data/res" type="simple" />
           </root>
         </classPath>
-        <javadocPath>
-          <root type="composite">
-            <root url="http://developer.android.com/reference/" type="simple" />
-          </root>
-        </javadocPath>
         <sourcePath>
           <root type="composite" />
         </sourcePath>
       </roots>
       <additional jdk="11" sdk="android-31" />
+    </jdk>
+    <jdk version="2">
+      <name value="Android API 33 Platform" />
+      <type value="Android SDK" />
+      <homePath value="$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-33/android.jar!/" type="simple" />
+            <root url="file://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-33/data/res" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional jdk="11" sdk="android-33" />
+    </jdk>
+    <jdk version="2">
+      <name value="Android API 33, TiramisuPrivacySandbox preview Platform" />
+      <type value="Android SDK" />
+      <homePath value="$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="jar://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-TiramisuPrivacySandbox/android.jar!/" type="simple" />
+            <root url="file://$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-TiramisuPrivacySandbox/data/res" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional jdk="11" sdk="android-TiramisuPrivacySandbox" />
     </jdk>
   </component>
 </application>

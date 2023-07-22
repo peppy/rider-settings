@@ -1,0 +1,444 @@
+<application>
+  <component name="RiderPerAppToolWindowLayoutV2"><![CDATA[{
+  "layouts": {
+    "Default": {
+      "v2": [
+        {
+          "id": "Space Code Reviews",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Bookmarks",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Pull Requests",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Commit",
+          "order": 1,
+          "weight": 0.32999215
+        },
+        {
+          "id": "Structure",
+          "order": 2,
+          "weight": 0.25
+        },
+        {
+          "id": "Resources Explorer",
+          "order": 2,
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Database Changes",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "TODO",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "dotTrace Profiler",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "NuGet",
+          "anchor": "BOTTOM",
+          "weight": 0.8824627
+        },
+        {
+          "id": "Services",
+          "anchor": "BOTTOM",
+          "weight": 0.3727612
+        },
+        {
+          "id": "Find",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false,
+          "weight": 0.3727612
+        },
+        {
+          "id": "dotMemory Profiler",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Version Control",
+          "order": 0,
+          "anchor": "BOTTOM",
+          "weight": 0.33022386
+        },
+        {
+          "id": "Problems",
+          "order": 1,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Logcat",
+          "order": 3,
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Build",
+          "order": 3,
+          "anchor": "BOTTOM",
+          "weight": 0.38022387
+        },
+        {
+          "id": "Debug",
+          "order": 3,
+          "anchor": "BOTTOM",
+          "weight": 0.38022387
+        },
+        {
+          "id": "Layout Inspector",
+          "order": 3,
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Run",
+          "order": 3,
+          "anchor": "BOTTOM",
+          "weight": 0.38022387
+        },
+        {
+          "id": "Terminal",
+          "order": 3,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Refactoring - Change signature",
+          "order": 3,
+          "anchor": "BOTTOM",
+          "weight": 0.33022386
+        },
+        {
+          "id": "Unit Tests Coverage",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "IL Viewer",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "documentation.v2",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Layout Validation",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Notifications",
+          "order": 0,
+          "anchor": "RIGHT",
+          "contentUiType": "COMBO",
+          "weight": 0.25
+        },
+        {
+          "id": "Database",
+          "order": 1,
+          "anchor": "RIGHT",
+          "weight": 0.315055
+        },
+        {
+          "id": "Gradle",
+          "order": 2,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Maven",
+          "order": 3,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Web Inspector",
+          "order": 4,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Device Manager",
+          "order": 4,
+          "anchor": "RIGHT",
+          "weight": 0.32999215
+        },
+        {
+          "id": "Unit Tests",
+          "order": 5,
+          "anchor": "RIGHT",
+          "weight": 0.315055
+        },
+        {
+          "id": "Problems View",
+          "order": 6,
+          "anchor": "RIGHT",
+          "weight": 0.315055
+        },
+        {
+          "id": "Device File Explorer",
+          "order": 7,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Project",
+          "order": 7,
+          "anchor": "RIGHT",
+          "contentUiType": "COMBO",
+          "weight": 0.315055
+        }
+      ],
+      "unifiedWeights": {
+        "top": 0.33,
+        "left": 0.32999215,
+        "bottom": 0.38022387,
+        "right": 0.315055
+      }
+    },
+    "Custom": {
+      "v2": [
+        {
+          "id": "Space Code Reviews",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Bookmarks",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Pull Requests",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Commit",
+          "order": 1,
+          "weight": 0.25
+        },
+        {
+          "id": "Repositories",
+          "order": 2,
+          "weight": 0.25019655
+        },
+        {
+          "id": "Structure",
+          "order": 2,
+          "weight": 0.25
+        },
+        {
+          "id": "Resources Explorer",
+          "order": 2,
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Database Changes",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "TODO",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "dotTrace Profiler",
+          "anchor": "BOTTOM",
+          "weight": 0.6570896
+        },
+        {
+          "id": "NuGet",
+          "anchor": "BOTTOM",
+          "weight": 0.6570896
+        },
+        {
+          "id": "Find",
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "dotMemory Profiler",
+          "anchor": "BOTTOM",
+          "weight": 0.3295796
+        },
+        {
+          "id": "Version Control",
+          "order": 0,
+          "anchor": "BOTTOM",
+          "weight": 0.35708955
+        },
+        {
+          "id": "Problems",
+          "order": 1,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Terminal",
+          "order": 3,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Xcode",
+          "order": 4,
+          "anchor": "BOTTOM",
+          "weight": 0.6645522
+        },
+        {
+          "id": "Logcat",
+          "order": 4,
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Build",
+          "order": 4,
+          "anchor": "BOTTOM",
+          "weight": 0.35708955
+        },
+        {
+          "id": "Debug",
+          "order": 4,
+          "anchor": "BOTTOM",
+          "weight": 0.49924925
+        },
+        {
+          "id": "Layout Inspector",
+          "order": 4,
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Run",
+          "order": 4,
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false,
+          "weight": 0.4988806
+        },
+        {
+          "id": "Services",
+          "order": 4,
+          "anchor": "BOTTOM",
+          "weight": 0.6190299
+        },
+        {
+          "id": "Refactoring - Change signature",
+          "order": 4,
+          "anchor": "BOTTOM",
+          "weight": 0.4317164
+        },
+        {
+          "id": "Unit Tests Coverage",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "IL Viewer",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "documentation.v2",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Layout Validation",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Meet New UI",
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Notifications",
+          "order": 0,
+          "anchor": "RIGHT",
+          "contentUiType": "COMBO",
+          "weight": 0.25
+        },
+        {
+          "id": "Database",
+          "order": 1,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Gradle",
+          "order": 2,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Maven",
+          "order": 3,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Web Inspector",
+          "order": 4,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Device Manager",
+          "order": 4,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Project",
+          "order": 5,
+          "anchor": "RIGHT",
+          "contentUiType": "COMBO",
+          "weight": 0.3087657
+        },
+        {
+          "id": "Unit Tests",
+          "order": 6,
+          "anchor": "RIGHT",
+          "weight": 0.3087657
+        },
+        {
+          "id": "Device File Explorer",
+          "order": 7,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        },
+        {
+          "id": "Problems View",
+          "order": 7,
+          "anchor": "RIGHT",
+          "weight": 0.3087657
+        }
+      ],
+      "unifiedWeights": {
+        "top": 0.33,
+        "left": 0.25019655,
+        "bottom": 0.4988806,
+        "right": 0.3087657
+      }
+    }
+  }
+}]]></component>
+</application>

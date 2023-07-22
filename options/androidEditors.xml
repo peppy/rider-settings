@@ -1,0 +1,10 @@
+<application>
+  <component name="AndroidEditors">
+    <option name="state">
+      <GlobalState>
+        <option name="preferredDrawableEditorMode" value="SPLIT" />
+        <option name="preferredEditorMode" value="DESIGN" />
+      </GlobalState>
+    </option>
+  </component>
+</application>

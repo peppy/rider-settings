@@ -1,5 +1,4 @@
 <keymap version="1" name="Visual Studio OSX copy" parent="Visual Studio OSX">
-  <action id="$Copy" />
   <action id="AceAction">
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
     <keyboard-shortcut first-keystroke="meta semicolon" />
@@ -85,7 +84,12 @@
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
-  <action id="EditSource" />
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="meta c" />
+  </action>
   <action id="EditorChooseLookupItemDot" />
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
@@ -243,6 +247,9 @@
   <action id="PreviousTab" />
   <action id="PreviousTemplateVariable" />
   <action id="Print" />
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
   <action id="ReSharperGotoImplementation">
     <keyboard-shortcut first-keystroke="meta f12" />
     <mouse-shortcut keystroke="control alt button1" />
