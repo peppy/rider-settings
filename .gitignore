@@ -26,3 +26,12 @@ options/other.xml
 options/project.default.xml
 extensions/com.intellij.database
 scratches
+consoles
+global-model-cache
+.lock
+plugin_PCWMP.license
+rider.key
+options/overrideFileTypes.xml
+options/remote-servers.xml
+options/scratches.xml
+options/deviceManagerPhysicalTab.xml
